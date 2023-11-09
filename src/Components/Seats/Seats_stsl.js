@@ -175,7 +175,7 @@ class ReservedList extends React.Component {
     if (x.length > 0) {
       localStorage.setItem("selected", x);
       localStorage.setItem("Bus", JSON.stringify(y));
-      window.location.href = `http://localhost:3000/busticket/${arr[0]}/${arr[1]}/${arr[2]}`;
+      window.location.href = `https://book-it-front-end.vercel.app//busticket/${arr[0]}/${arr[1]}/${arr[2]}`;
       // this.props.navigation.navigate('busticket')
     }
   }
